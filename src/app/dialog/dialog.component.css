@@ -1,0 +1,18 @@
+.dialog-content{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+  margin: 15px 0px;
+}
+
+.mat-dialog-actions{
+  display: flex;
+
+}
+.title{
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+}
+

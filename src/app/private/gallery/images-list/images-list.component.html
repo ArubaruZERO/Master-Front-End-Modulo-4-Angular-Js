@@ -1,0 +1,5 @@
+<mat-card>
+  <div class="image-list" *ngFor="let image of images ; let i = index" >
+    <img class="image" src="{{image?.src}}" (click)="select(image)">
+  </div>
+</mat-card>

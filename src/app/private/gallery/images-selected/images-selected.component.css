@@ -1,0 +1,23 @@
+.image {
+  max-width: 50vw;
+  border-radius: 5px;
+  box-shadow: 0px 7px 23px -10px rgba(171, 171, 171, 1);
+
+}
+
+.image-selected {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  width: 100%;
+
+}
+
+.selected.img {
+  border: 2px solid blue;
+}
+
+.image-selected {
+  width: 500px;
+
+}

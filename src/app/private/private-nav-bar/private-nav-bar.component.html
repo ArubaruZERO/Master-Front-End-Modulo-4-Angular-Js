@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <div>
+    <a mat-button routerLink="/dashboard">
+      <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+    </a>
+    <a mat-button routerLink="/dashboard">Dashboard</a>
+    <a mat-button routerLink="/profile">Perfil</a>
+    <a mat-button routerLink="/galeria">Galeria</a>
+    <a mat-button routerLink="/crud">CRUD</a>
+  </div>
+  <div >
+    <button mat-flat-button color="accent" (click)="signOut()" >
+      Logout
+      <mat-icon aria-hidden="false" aria-label="Example logout icon"  >logout</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>

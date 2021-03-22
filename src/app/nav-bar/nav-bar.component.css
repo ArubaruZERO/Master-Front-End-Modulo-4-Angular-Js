@@ -1,0 +1,15 @@
+mat-toolbar {
+  box-shadow: 3px 5px 22px -12px rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+mat-icon {
+  background: white
+}
+
+.login {
+  justify-content: flex-end;
+}

@@ -1,0 +1,18 @@
+<div>
+  <div class="images-content">
+    <app-images-list [images]="imagesList" (imageClicker)="onImageClick($event)"></app-images-list>
+  </div>
+  <div class="images-content">
+    <app-images-selected [image]="imageSelected" [zoomValue]="actualZoom"></app-images-selected>
+  </div>
+</div>
+<div class="btn-container">
+  <div class="move-btn">
+    <button mat-stroked-button color="primary" (click)="prevNav()">Previus</button>
+    <button mat-stroked-button color="primary" (click)="nextNav()">Next</button>
+  </div>
+  <div class="move-btn">
+    <button mat-flat-button color="accent" (click)="zoomIn()">Zoom In</button>
+    <button mat-flat-button color="accent" (click)="zoomOut()">Zoom Out</button>
+  </div>
+</div>

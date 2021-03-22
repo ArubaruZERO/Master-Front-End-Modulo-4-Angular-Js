@@ -1,0 +1,22 @@
+.images-content {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.move-btn {
+  margin: 0 15px;
+}
+
+.zoom-btn {
+  margin: 0 15px;
+}
+
+button {
+  margin: 0 2px;
+}
