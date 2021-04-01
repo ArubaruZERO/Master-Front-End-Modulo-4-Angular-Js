@@ -1,4 +1,6 @@
 # App
+![Mockup](https://user-images.githubusercontent.com/63741440/113274333-e148bb80-92dd-11eb-95bf-2fdaafda099a.png)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
 
